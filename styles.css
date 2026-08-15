@@ -1,0 +1,157 @@
+.heading{
+    font-family: "Montserrat", sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+}
+.birthday{
+     font-family: "Great Vibes", cursive;
+     font-weight: 550;
+     font-size: 30px;
+}
+.souls{
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 700;
+    font-size: 25px;
+}
+.message{
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 500;
+    font-size: 17px;
+}
+.DOB{
+    font-family: "Great Vibes", cursive;
+    font-weight: 700;
+    font-size: 23px;
+}
+#Marina-profile{
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+    margin-right: 15px;
+    border-radius : 50%;
+    object-fit: center;
+    border: 5px solid #D81B60
+}
+#Anna-profile{
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+    margin-left: 15px;
+    border-radius: 50%;
+    object-fit: center;
+    border: 5px solid #7B1FA2
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 20px;
+    margin-top: 10px;
+    
+}
+#profiles{
+    padding: 20px;
+}
+body{
+    background-image: url("images/NewBackground\ image.PNG");
+    background-size: cover;
+    text-shadow: 0px 0px 1px black;
+}
+.Gifts-heading{
+    font-family: "Great Vibes", cursive;
+     font-weight: 600;
+     font-size: 30px;
+}
+.Gifts-instructions{
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+.gift-image{
+    width: 500px;
+    height: 500px;
+    background-image: url("images/Marina-gift.png");
+    background-size: cover;
+    background-position: center;
+    margin-right: 15px;
+    margin-top: 30px;
+}
+.gift-img{
+    width: 500px;
+    height: 500px;
+    background-image: url("images/newanna-gift.png");
+    background-size: cover;
+    background-position: center;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+#Gift-imgs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+#text-instructions{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.wife{
+    font-family: "Allura", cursive;
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-decoration-color: #D81B60;
+    text-decoration-style: wavy;
+}
+.Sis{
+    font-family: "Allura", cursive;
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-decoration-color: #7B1FA2;
+    text-decoration-style: wavy;
+}
+.gift-image:hover{
+    background-image : url("images/wife-animation.webp");
+    background-size: cover;
+    background-position: center;
+}
+.gift-img:hover{
+    background-image : url("images/anna-anime.webp");
+    background-size: cover;
+    background-position: center;
+}
+#footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin-top: 60px;
+    padding: 20px;
+}
+.farewell{
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 550;
+    font-size: 23px;
+}
+.prayer{
+     font-family: "Great Vibes", cursive;
+     font-weight: 700;
+     font-size: 30px;
+}
+#signature{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: start;
+}
+#sign{
+    font-family: "Great Vibes", cursive;
+     font-weight: 700;
+     font-size: 30px;
+}
